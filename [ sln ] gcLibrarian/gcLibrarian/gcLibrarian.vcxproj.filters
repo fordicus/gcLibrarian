@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\``gcLibrary">
+      <UniqueIdentifier>{51877988-f799-404c-851a-7dd82b51e6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\`DebugSourceLine">
+      <UniqueIdentifier>{bc355e67-b233-43d4-847e-249c7eca09da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="``ROI">
+      <UniqueIdentifier>{3c640d83-ff68-4b64-b273-4e0965b6631d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="``ROI\``gcLibrary">
+      <UniqueIdentifier>{a8b5d377-f73e-4be5-8a22-28bcd16f925f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gcLibrarian.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\``gcLibrary\``include\gcDEFINE.hpp">
+      <Filter>헤더 파일\``gcLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSourceLine.hpp">
+      <Filter>헤더 파일\`DebugSourceLine</Filter>
+    </ClInclude>
+    <ClInclude Include="gcFileDog.hpp">
+      <Filter>``ROI</Filter>
+    </ClInclude>
+    <ClInclude Include="gcLibrarianDlg.h">
+      <Filter>``ROI</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>``ROI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\``gcLibrary\``include\gcTrayCTRL_MFC.hpp">
+      <Filter>``ROI\``gcLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gcLibrarian.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gcLibrarianDlg.cpp">
+      <Filter>``ROI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="gcLibrarian.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\gcLibrarian.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\gcLibrarian.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Cherry.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
