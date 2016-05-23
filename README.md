@@ -1,5 +1,5 @@
 # gcLibrarian
 
-Dependency: ( Win x86 | MFC | Unicode )
-Description:  DLL auto-commit AI
-Build:        Visual Studio Community 2015
+Dependency: Win x86 | MFC | Unicode         <br />
+Description:  DLL auto-commit AI            <br />
+Build:        Visual Studio Community 2015  <br />
